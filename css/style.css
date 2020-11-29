@@ -146,12 +146,24 @@ p.introduction-heading {
     background-color: gray;
 }
 
+p.introduction-description {
+    padding-left: 35px;
+    font-size: 25px;
+    text-align: center;
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: none;
+}
+
 a.module-link {
     color: black;
 }
 
 .steps li {
     color: black;
+    padding: 0;
 }
 
 li.module-1-item {
@@ -160,10 +172,6 @@ li.module-1-item {
 
 .sub-steps {
     padding-left: 100px;
-}
-
-.sub-year {
-    font-size: .4em;
 }
 
 /* FOOTER */
