@@ -101,6 +101,7 @@ h1 {
     padding: 20px 50px;
     font-size: 50px;
     border: none;
+    border-radius: 25%;
 }
 
 .dropdown {
@@ -135,6 +136,34 @@ h1 {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+/* INTRODUCTION MAIN CONTENT */
+p.introduction-heading {
+    font-size: 50px;
+    padding-left: 35px;
+    color: #f1f1f1;
+    background-color: gray;
+}
+
+a.module-link {
+    color: black;
+}
+
+.steps li {
+    color: black;
+}
+
+li.module-1-item {
+    padding-left: 35px;
+}
+
+.sub-steps {
+    padding-left: 100px;
+}
+
+.sub-year {
+    font-size: .4em;
 }
 
 /* FOOTER */

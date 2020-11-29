@@ -1,0 +1,91 @@
+﻿﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Math Made Easy</title>
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <meta name="author" content="Gabriel Shahrouzi">
+    <meta name="description" content="Math Made Easy Website">
+    <meta name="keywords" content="Math, Computer Science, Notes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../../index.html">Home</a></li>
+                <li>Notes</li>
+                <li><a href="../../../contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Introduction</h1>
+        <section>
+            <p class="introduction-heading">Module 1: Getting Set Up</p>
+            <ul class="steps">
+                <li class="module-1-item">Windows
+                    <p class="sub-steps">Use: 
+                        <a class="module-link" href="https://visualstudio.microsoft.com/vs/" target="_blank alt=hyperlink to visual studio download">Visual Studio 
+                        </a>
+                    </p>
+                </li>
+                <li class="module-1-item">Mac
+                    <p class="sub-steps">Use:
+                        <a class="module-link" href="https://apps.apple.com/bm/app/xcode/id497799835?mt=12" target="_blank" alt="hyperlink to Xcode app">
+                            Xcode
+                        </a>
+                    </p>
+                </li>
+            </ul>
+            <p class="introduction-heading">Module 2: Printing to the Console</p>
+            <ol class="steps">
+                <li>
+                    Add Standard Input/Output Library header at the beginning of your source code. 
+                    This is required, so that later you can use the printf function.
+                    <pre class="code">
+                        #include <stdio.h>
+                    </pre>
+                </li>
+                <li>
+                    The main function is the starting point of every C program.
+                    <pre class="code">
+                        #include <stdio.h> 
+                            int main(int argc, char* argv[]) { 
+                        }
+                    </pre>
+                </li>
+                <li>
+                    Add the return/ending of the function inside the main function. 
+                    <pre class="code">
+                        #include <stdio.h>
+
+                        int main(int argc, char* argv[]) {
+                                return 0;
+                        }
+                    </pre>
+                </li>
+                <li>
+                    Put a printf function above the return statement, to 
+                    output a string to the console.
+                    <pre class="code">
+                        #include <stdio.h>
+
+                        int main(int argc, char* argv[]) {
+                                printf("Hello World!");
+                                return 0;
+                        }
+                    </pre>
+                </li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p class="nav-bar-repeat"><a href="../../../index.html" alt="Home page">Home</a> · <a href="../../notes.html" alt="Notes page">Notes</a> · <a href="../../../contact/contact.html" alt="Contact page">Contact</a></p>
+        <p id="copyright">@ 2020 Gabriel Shahrouzi - All Rights Reserved</p>
+    </footer>
+</body>
+</html>

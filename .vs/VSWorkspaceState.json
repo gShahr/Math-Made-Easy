@@ -3,8 +3,10 @@
     "",
     "\\contact",
     "\\css",
-    "\\notes"
+    "\\notes",
+    "\\notes\\classes",
+    "\\notes\\classes\\computing1-topics"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\notes\\classes\\computing1-topics\\introduction.html",
   "PreviewInSolutionExplorer": false
 }
