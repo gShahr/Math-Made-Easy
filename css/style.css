@@ -1,7 +1,7 @@
 ﻿body {
     font-family: sans-serif;
-    margin: 0;
     background-color: rgba(247, 233, 233, 0.12);
+    margin: 0;
 }
 
 /* HEADER */
@@ -41,6 +41,15 @@ li a:visited {
 
 li a:hover {
     color: red;
+}
+
+.sub-nav-bar li {
+    font-size: 18px;
+}
+
+.sub-nav-bar {
+    padding-top: 15px;
+    padding-left: 20px;
 }
 
 /* MAIN CONTENT */
@@ -84,11 +93,64 @@ h1 {
 }
 
 /* COMPUTING I MAIN CONTENT */
-.computing-syllabus {
-    text-align: center;
-    font-size: 18px;
-    color: darkslategray;
+.front-image {
+    background-color: #e0d6d6;
     padding-bottom: 50px;
+}
+
+.class-heading {
+    text-align: left;
+    margin: 80px 100px 0 100px;
+    padding-top: 100px;
+    font-size: 5rem;
+    color: #002b2b;
+    max-width: 1000px;
+}
+
+.computing1-subsection .column {
+    text-align: left;
+}
+
+.learning-objective {
+    margin-left: 110px;
+    font-size: 2rem;
+    color: #212529;
+}
+
+.computing-syllabus {
+    margin-bottom: 100px;
+}
+
+.computing-syllabus li {
+    font-size: 20px;
+    color: #454545;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    display: list-item;
+    font-weight: 400;
+    padding-bottom: 15px;
+    max-width: 700px;
+    list-style-type: disc;
+}
+
+.side-panel {
+    color: #454545;
+    margin: 35px 100px 0 100px;
+}
+
+.side-panel li {
+    color: inherit;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 0;
+}
+
+.side-panel div {
+    color: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 8px 0 20px 0;
+
 }
 
 .column.computing-units {
