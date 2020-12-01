@@ -223,6 +223,10 @@ a.module-link {
     color: black;
 }
 
+a.module-link:visited {
+    color: #171616;
+}
+
 .steps li {
     color: black;
     padding: 0;
