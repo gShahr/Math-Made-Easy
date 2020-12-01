@@ -1,4 +1,4 @@
-﻿body {
+body {
     font-family: sans-serif;
     background-color: rgba(247, 233, 233, 0.12);
     margin: 0;
@@ -221,6 +221,10 @@ abbr[title] {
 
 a.module-link {
     color: black;
+}
+
+a.module-link:visited {
+    color: #171616;
 }
 
 .steps li {
